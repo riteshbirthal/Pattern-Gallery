@@ -4,7 +4,7 @@ import { PatternRoute } from './routes/PatternRoute'
 
 export function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Pattern-Gallery">
       <Routes>
         <Route path="/" element={<Gallery />} />
         <Route path="/pattern/:id" element={<PatternRoute />} />
